@@ -95,4 +95,5 @@ export class CryptoService {
       throw new InternalServerErrorException('Fallo al descifrar paquete híbrido. Revisa los logs del servidor.');
     }
   }
+  
 }
